@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+#warp {
+    width: 1900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.header {
+    position: relative;
+
+}
+
+.header .logo {
+    position: absolute;
+    width: 350px;
+    top: -42px;
+    left: 830px;
+    margin: 0 auto;
+}
+
+
+.header>ul>li>.ai {
+    float: left;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+
+.header>ul>li>.bi {
+    float: left;
+    position: absolute;
+    top: 60px;
+    left: 200px;
+}
+
+.header>ul>li>.ci {
+    float: left;
+    position: absolute;
+    top: 60px;
+    left: 300px;
+}
+
+.header>ul>li>a {
+    font-size: 1.1em;
+    color: black;
+    font-weight: bold;
+}
+
+.header>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+/* 메뉴들  */
+.header>.menu>ul {
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    height: 200px;
+    text-align: center;
+
+
+}
+
+.allMenu>li>a {
+    font-size: 1.0em;
+    display: inline-block;
+    font-weight: bold;
+    padding: 8px 16px;
+}
+
+.subMenu>li {
+    top: 60px;
+    padding: 8px 16px;
+}
+
+.subMenu {
+    opacity: 0;
+    transition: 1s;
+}
+
+.allMenu>li:hover .subMenu {
+    opacity: 1;
+    transition: 1.5s;
+    text-decoration: underline;
+}
+
+.shop {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    clear: both;
+
+
+
+}
+
+.shop>h1 {
+    border: 1px solid rgb(233, 233, 233);
+    text-align: center;
+    padding: 10px;
+    margin: 60px 0 40px 0;
+    font-weight: lighter;
+
+}
+
+.shop ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.shop img {
+    margin-top: 80px;
+    width: 400px;
+    height: 500px;
+    margin-left: 50px;
+
+}
+
+.shop p {
+    padding: 10px;
+    text-decoration: underline;
+
+}
+
+.activity {
+    position: relative;
+    width: 100%;
+    height: 3000px;
+}
+
+.activity>h2 {
+    position: absolute;
+    left: 46%;
+    top: 20px;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding: 5px 40px 5px 40px;
+    margin: 60px 0 40px 0;
+    font-weight: 300;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px 10px;
+}
+
+.activity .img1 {
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+
+.activity .pp1 {
+    position: absolute;
+    top: 600px;
+    left: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 1.0em;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.activity .pp1:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+
+.activity .img2 {
+    position: absolute;
+    width: 740px;
+    right: 40px;
+    top: 500px;
+}
+
+.activity .pp2 {
+    position: absolute;
+    right: 70px;
+    top: 1300px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+    transition: 1s;
+    padding: 10px;
+}
+
+.activity .pp2:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.activity .img3 {
+    position: absolute;
+    top: 1300px;
+    left: 300px;
+}
+
+.activity .pp3 {
+    position: absolute;
+    top: 1500px;
+    left: 500px;
+    padding: 10px;
+    background-color: #fff;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.activity .pp3:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.activity .img4 {
+    position: absolute;
+    top: 2200px;
+    right: 300px;
+}
+
+.activity .pp4 {
+    position: absolute;
+    top: 2500px;
+    left: 700px;
+    background-color: #fff;
+    padding: 10px;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.activity .pp4:hover {
+    opacity: 1;
+    transition: 1s;
+
+}
+
+.column {
+    width: 100%;
+}
+
+.column>h3 {
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    background-color: #EDEDED;
+    border-radius: 50px 50px 0 10px;
+}
+
+.column p {
+    column-count: 3;
+    column-gap: 10px;
+    column-rule-style: dashed;
+    column-rule-width: 1px;
+    line-height: 30px;
+
+}
+
+.video {
+    width: 100%;
+    height: 700px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.video>h4 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 36px;
+    text-decoration: overline;
+}
+
+.video iframe {
+    width: 356px;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+    border: 2px solid black;
+}
+
+.guide {
+    position: relative;
+    height: 700px;
+
+}
+
+.guide>p {
+
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    margin: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-indent: 250px;
+    line-height: 40px;
+    text-decoration: underline;
+}
+
+.guide .coffee1 {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.guide .coffee2 {
+    position: absolute;
+    top: 400px;
+    left: 800px;
+}
+
+.guide .coffee3 {
+    position: absolute;
+    top: 140px;
+    left: 1300px;
+}
+
+.icon {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+    margin-top: 100px;
+    float: right;
+    padding: 5px;
+    position: relative;
+    right: 25px;
+    z-index: 100;
+}
+
+.footer {
+    width: 100%;
+    height: 400px;
+    background-color: #FFF2E6;
+    position: relative;
+}
+
+.footer>.title {
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    left: 80px;
+}
+
+.footer ul {
+
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    top: 90px;
+    left: 600px;
+    float: left;
+}
+
+.footer .go1 {
+    position: absolute;
+    top: -30px;
+}
+
+.footer .go2 {
+    position: absolute;
+    top: -30px;
+}
+
+.footer .go3 {
+    position: absolute;
+    top: -30px;
+}
+
+.footer .ptage {
+    font-weight: bold;
+    width: 600px;
+    position: relative;
+    top: 250px;
+    left: 10px;
+}
+
+.footer .copy1 {
+    position: relative;
+    width: 100%;
+    top: 85px;
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+.javascript {
+    display: inline-block;
+    position: absolute;
+    border: 1px solid black;
+    top: 370px;
+    font-size: 30px;
+    left: 20px;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(1px);
+}
+
+.jstitle {
+    margin-bottom: 10px;
+
+}
+
+.javascript .jsbtn {
+    padding: 10px 40px;
+    margin: 10px;
+}
+
+.jsbtn a {
+    text-decoration: none;
+    color: black;
+    font-style: 20px;
+}
+
+.top {
+    position: fixed;
+    left: 97%;
+    bottom: 5%;
+    display: block;
+    z-index: 10;
+}
